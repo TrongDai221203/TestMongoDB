@@ -1,6 +1,7 @@
 const userrRouter = require('./user')
 
 const initRoutes = (app) => {
-    app.use('/api/user', userrRouter)
+    app.use('/api/', userrRouter)
 }
 module.exports = initRoutes
+
